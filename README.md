@@ -3,7 +3,7 @@ The Fact is, there aren't just two sides to any issue,
 there's almost always a range of responses, and **"it depends"** is 
 almost always the right answer in any big question. ~Linus Torvalds  
 
-#### Array
+#### [Array](https://github.com/ShacoYang/DataStructureAlgorithm/blob/master/src/Array/Array.java)
 * Contiguous block in memory
     * Start address of array = 12, element size = 4 bytes (int)
     Address of array[0] = 12  
@@ -24,9 +24,17 @@ almost always the right answer in any big question. ~Linus Torvalds
 | Delete by shifting elements        | O(n)            |  
 
 #### Sort
-##### Bubble Sort
+* Stable: 
+* Unstable:
+##### [Bubble Sort](https://github.com/ShacoYang/DataStructureAlgorithm/blob/master/src/Sort/_1BubbleSort.java)
 * In-place algorithm
 * O(n^2)
+* stable
+#### [Selection Sort]
+* In-place
+* O(n^2)
+* stable
+* Doesn't require as much swapping as bubble sort
 
 
 
