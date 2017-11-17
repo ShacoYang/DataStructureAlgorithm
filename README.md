@@ -35,6 +35,9 @@ almost always the right answer in any big question. ~Linus Torvalds
 * O(n^2)
 * stable
 * Doesn't require as much swapping as bubble sort
-
+#### [Insertion Sort]
+* In-place
+* O(n^2)
+* stable
 
 
