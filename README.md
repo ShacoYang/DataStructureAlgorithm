@@ -12,8 +12,9 @@ almost always the right answer in any big question. ~Linus Torvalds
     Address of array[0] = 12 + 3 * 4 = 24
 * Every element occupies same amount of space in memory
 * if knew index of an element, O(1) retrieve   
+
 | Operation                          | Time Complexity |
-| ---------------------------------  | --------------- |
+| :--------------------------------- | :---------------|
 | Retrieve with Index                | O(1)            |
 | Retrieve withOUT Index             | O(n)            |
 | Add an element to full array       | O(n)            |
@@ -21,8 +22,3 @@ almost always the right answer in any big question. ~Linus Torvalds
 | Insert or update at specific index | O(1)            |
 | Delete by setting it to null       | O(1)            |
 | Delete by shifting elements        | O(n)            |
-
-| 一个普通标题 | 一个普通标题 | 一个普通标题 |
-| :------| :------: | ------: |
-| 短文本 | 中等文本 | 稍微长一点的文本 |
-| 稍微长一点的文本 | 短文本 | 中等文本 |
