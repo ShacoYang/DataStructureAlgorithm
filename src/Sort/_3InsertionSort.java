@@ -11,6 +11,8 @@ public class _3InsertionSort {
 
             int i;
             // i > 0 because we haven't hit the front of the array
+            // intArray[i - 1] the element is greater than the one we're trying to insert
+            // if intArray[i - 1] > newElement, we still haven't find a correct position
             for (i = firstUnsortedIndex; i > 0 && intArray[i - 1] > newElement; i--) {
                 intArray[i] = intArray[i - 1];
             }
