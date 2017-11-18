@@ -39,5 +39,9 @@ almost always the right answer in any big question. ~Linus Torvalds
 * In-place
 * O(n^2)
 * stable
+#### [Shell Sort]
+* In-place
+* Worst: O(n^2) but it can perform much better than that
+* Unstable
 
 
