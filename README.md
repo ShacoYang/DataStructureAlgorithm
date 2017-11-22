@@ -40,8 +40,18 @@ almost always the right answer in any big question. ~Linus Torvalds
 * O(n^2)
 * stable
 #### [Shell Sort]
+* starts out using a larger gap value
+* reduce the amount of shifting required
+* last gap value is always 1
 * In-place
 * Worst: O(n^2) but it can perform much better than that
+* Doesn't require as much shifting as insertion sort, so it usually performs better
 * Unstable
-
+#### [Recursion]
+#### [Merge Sort]
+* Divide and conquer algorithm
+* Recursive algorithm
+* Splitting and Merging
+* O(n Logn)
+* Stable
 
