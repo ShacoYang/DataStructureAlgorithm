@@ -59,4 +59,11 @@ almost always the right answer in any big question. ~Linus Torvalds
 * in-place
 * right to left, looking for the first element < than pivot
 * right -> left, left -> right
+#### [Counting Sort]
+* Assumptions about the data (discrete and within a specific range)
+* Doesn't use comparisons
+* Counts the # of occurrences of each value
+* **Only works with Non-negative discrete values(NOT Floats, Strings)**
+* NOT in-place
+* if we want stable, needs to do extra steps
 
