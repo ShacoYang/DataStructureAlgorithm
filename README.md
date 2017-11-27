@@ -54,4 +54,9 @@ almost always the right answer in any big question. ~Linus Torvalds
 * Splitting and Merging
 * O(n Logn)
 * Stable
+#### [Quick Sort]
+* Pivot (first element)
+* in-place
+* right to left, looking for the first element < than pivot
+* right -> left, left -> right
 
