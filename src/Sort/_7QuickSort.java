@@ -28,11 +28,13 @@ public class _7QuickSort {
         int j = end;
 
         while (i < j) {
-
+            //empty loop body
+            //right - left looking for smaller elements
             while (i < j && input[--j] >= pivot);
             if (i < j) {
                 input[i] = input[j];
             }
+            //left - right looking for larger element
             while (i < j && input[++i] <= pivot);
             if (i < j) {
                 input[j] = input[i];
