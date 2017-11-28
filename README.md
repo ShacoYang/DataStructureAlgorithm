@@ -66,11 +66,21 @@ almost always the right answer in any big question. ~Linus Torvalds
 * **Only works with Non-negative discrete values(NOT Floats, Strings)**
 * NOT in-place
 * if we want stable, needs to do extra steps
+##### [Stable Counting Sort]
+
 #### Radix Sort
 * Data must have **Same radix and width** (integers or strings)
 * Radix --> number of unique digits or values
 * Width --> number of digits or letters (1234 4width, hello 5width)
 * Sort based on each individual digit or letter position
 * Start at the rightmost position
-* Must use stable sort algorithm at each stage
+* Must use stable sort algorithm at each stage  
+4725 4586 1330 8792 1594 5729  
+First: based on the 1's position from right  
+1330 8792 1594 4725 4595 5729
+Second: based on the 10's position - **Must be a stable sort**  
+4725 5729 1330 4586 8792 1594  (4725 5729)  
+Third: 100's position
+1330 4586 1594 4725 5729 8792  
+
 
