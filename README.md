@@ -66,4 +66,11 @@ almost always the right answer in any big question. ~Linus Torvalds
 * **Only works with Non-negative discrete values(NOT Floats, Strings)**
 * NOT in-place
 * if we want stable, needs to do extra steps
+#### Radix Sort
+* Data must have **Same radix and width** (integers or strings)
+* Radix --> number of unique digits or values
+* Width --> number of digits or letters (1234 4width, hello 5width)
+* Sort based on each individual digit or letter position
+* Start at the rightmost position
+* Must use stable sort algorithm at each stage
 
