@@ -89,9 +89,10 @@ Third: 100's position
 * Dictates the operations you can perform
 * Concrete data structure is usually a concrete class
 * Abstract data type is usually an interface
-##### ArrayList
+##### ArrayList (Backed by Array)
 * Resizable array impl of the List interface
 * Capacity and Size (don't pass a capacity init default is 10)
+* Inserting(Not end) Deletions removals access an item(no index) in the list **Not so good**  
 .forEach()
 .get()
 .isEmpty()
@@ -102,3 +103,16 @@ Third: 100's position
 .contains()
 .indexOf()
 .remove()
+##### Vector
+* Thread safe (synchronized) arrayList
+##### LinkedList
+###### Single Linked List
+* Node, Next
+* A singly linkedlist is best used when insert and remove items from the front
+* No need to resize
+###### Doubly Linked list
+* Each field has two reference next and previous
+* head and tail
+###### JDK Linked List 
+* Doubly-linked list impl of the **List** and **Deque** interface
+* Not Synchronized
