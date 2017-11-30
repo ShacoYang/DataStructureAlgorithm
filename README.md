@@ -121,4 +121,21 @@ Third: 100's position
 * LIFO --> means no random access
 * push() pop() peek() 
 * Ideal backing data structure: linked list
+#### Queue
+* ADT
+* FIFO
+* add() remove() peek()
+```java
+//length = 2 add() add() remove() add() --> no need to resize
+public void add(Employee employee) {
+        //resize or not
+        if (queue.length == back) {  
+        }
+    }
+```
+```java
+//circularQueue
+  System.arraycopy(queue, front, newQueue, 0, queue.length - front);
+  System.arraycopy(queue, 0, newQueue, queue.length - front, back);
+```
 
