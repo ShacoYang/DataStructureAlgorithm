@@ -116,3 +116,9 @@ Third: 100's position
 ###### JDK Linked List 
 * Doubly-linked list impl of the **List** and **Deque** interface
 * Not Synchronized
+#### Stack
+* ADT
+* LIFO --> means no random access
+* push() pop() peek() 
+* Ideal backing data structure: linked list
+
