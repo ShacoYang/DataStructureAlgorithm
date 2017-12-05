@@ -138,4 +138,26 @@ public void add(Employee employee) {
   System.arraycopy(queue, front, newQueue, 0, queue.length - front);
   System.arraycopy(queue, 0, newQueue, queue.length - front, back);
 ```
-
+#### HashTable
+* ADT
+* Provide access to data using key
+* Consists of Key/Value pairs 
+* Optimized for retrieval(knows key)
+* Associative array is one type of hash table
+ #####Hasing
+ * Maps keys of any data type to an integer
+ * Hash function maps keys to int
+ * In Java, hash function is Object.hashCode()
+ * Collision occurs when > 1 value has the same hashed value 
+* **Handle Collision** (Load Factor)
+    * Open Addressing (another empty array)
+    * Linear probing (hashed value + 1 and check the resulting index)
+    * Chaining (store Linked list)
+* **Remove() null problem**
+    * one a remove rehash all of the items that are already in the hash table
+        * Performance Hit (have to iterate over all of the remaining elements and rehash them)
+        * **hit when remove()**
+    * add field to (Employee weather has been deleted or not)
+        * Polluted hash table (a mix of live and deleted values)
+        * Even though deleting items the load factor isn't going to change
+        * **hit when add()**
